@@ -1,0 +1,94 @@
+body{
+    background-image:linear-gradient(115deg,rgba(70, 112, 110, 0.429),rgba(103, 159, 156, 0.425)), url(chef.jpg);
+    margin: 0;
+    border:0;
+    box-sizing:border-box;
+}
+#survey-form{
+    width:60vw;
+    height:100%; 
+    background-color: rgba(125, 173, 171, 0.642); 
+    margin: auto auto 20px auto;
+    border-radius: 5px;
+    padding: 0px 40px 20px 40px;
+}
+
+#title,#description{
+    text-align: center;
+}
+#title{
+    font-family:'Lucida Sans';
+    font-size: 32px;
+}
+#description,p{
+    font-size: 18px;
+    margin-top: -15px;
+}
+p{
+    font-family: 'Lucida Sans';
+}
+#disabled{
+    color:#7c7c7c
+}
+
+label{
+    display: block;
+    margin-top:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+input{
+    width:80%;
+    display: block;
+    border-width: 0px;
+    border-radius: 3px;
+    min-height: 2em;
+    margin-top: 3px;
+}
+#name-label{
+    margin-top: 10px;
+}
+.inline{
+    width: unset;
+    margin-right:3px;
+    vertical-align: middle;
+    display:inline-block;
+    margin-top:-5px
+}
+fieldset{
+    border:none;
+    margin-top: -5px;
+    
+}
+.tick{
+    min-height:1px;
+    margin-top: 1px;
+}
+header{
+    margin-top: -10px;
+}
+.choz{
+    
+    text-decoration: underline;
+}
+.impro{
+    text-decoration: underline;
+    margin-top: 3px;
+}
+select{
+    width:80%;
+    border-width: 0px;
+    border-radius: 3px;
+    min-height:2em;
+}
+textarea{
+    width:80%;
+}
+.form-survey{
+    margin-left: -10px;
+}
+
+input[type=submit]{
+    background-color: rgb(27, 187, 30);
+    border-radius: 5px;
+    color:#fff;
+}
