@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Survey Form</title>
+    <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+ <div class="container">
+    <header>
+        <h1 id="title">
+            Food Survey Form
+        </h1>
+        <p id="description">Thank you for taking the time to help us improve the Variety of Food we offer</p>
+        </header>
+    <form id="survey-form">
+    <fieldset class="form-survey">
+        <label id="name-label">Name <input id="name" type="text" required placeholder="Enter Your Name" title="Please Fill out this field."></label>
+        <label id="email-label">Email <input id="email" type="email" required placeholder="Enter Your Email" title="Please Fill out this field."></label>
+        <label id="number-label">Age(Optional) <input id="number" type="number" min="4" max="120" placeholder="Age" ></label>
+    </fieldset>
+    <fieldset class="form-survey">
+        <label>
+            <select id="dropdown" title="Please Select An Option">
+                <option disabled selected>Please Select Your Favourite Meal</option>
+                <option>Jollof Rice</option>
+                <option>Freid Rice</option>
+                <option>Pounded Yam and Egusi</option>
+                <Option>Amala And Ewudu</Option>
+                <option>Yam Porridge</option>
+                <option>Fried Yam And Pepper Sauce</option>
+                <option>Pizza</option>
+                <option>Shawarma</option>
+                <option>Chicken Parmasean</option>
+                <option>Macaroni</option>
+                <option>Spaghetti And Meatballs</option>
+                <option>Yamarita</option>
+                <option>Chips And Egg</option>
+                <option>Eba and Okro</option>
+                <option>Semo and Egusi</option>
+                <option>Rice and Stew</option>
+                <option>Beef Ragu</option>
+                <option>Nkwobi</option>
+                <option>Tuwo and Miyan Tuashe</option>
+                <option>Danwake</option>
+                <option>Masa</option>
+                <option>Boiled Yam and Egg sauce</option>
+                <option>Beans and pap/Garri</option>
+                <option>Akara and Pap</option>
+                <option>Moi-moi and pap</option>
+                <option>Fufu and Afang soup</option>
+                <option>Sweet Potato Porridge</option>
+                <option>Bread and Tea</option>
+                <option>Dambun Shinkafa</option>
+            </select>
+        </label>
+    </fieldset>
+
+    <fieldset class="form-survey">
+        <label  for="yes" class="rec">
+            <p class="choz">Would You like us to Add Desserts to our Menu?</p>
+            Yes<input type="radio" name="recommend" value="rec" id="yes" class="inline">
+        </label>
+        <label for="no" class="rec">
+            No<input type="radio" name="recommend" value="rec" id="no" class="inline">
+        </label>
+        <label for="diff" class="rec">
+                <label for="diff" class="rec">
+            Indifferent<input type="radio" name="recommend" value="rec" id="diff" class="inline">
+        </label>
+    </fieldset>
+    <p class="impro">What Would You Like For Us To Improve On In Our Restaurant</p>
+    <label for="tik">
+        Customer Service<input type="checkbox" value="improvements" name="check"  class="tick inline" id="tik">
+    </label>
+    <label for="ticks">
+        Waiting Time<input type="checkbox" value="improvements" name="check"  class="tick inline" id="ticks">
+    </label>
+    <label for="tickss">
+        Variety Of Foods<input type="checkbox" value="improvements" name="check"  class="tick inline" id="tickss">
+    </label>
+    <label for="ticksss">
+         Standard Of Dining Area<input type="checkbox" value="improvements" name="check"  class="tick inline" id="ticksss">
+    </label for="tickssss">
+    <label>
+        Improved Payment Services<input type="checkbox" value="improvements" name="check"  class="tick inline" id="tickssss">
+    </label>
+    <h2>Any Suggestions?</h2>
+        <textarea placeholder="Enter Your Comment/Suggestion Here..."></textarea><br>
+        <button>Submit Query</button>
+    
+    </form>
+ </div>
+</body>
+</html>
